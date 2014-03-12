@@ -1,0 +1,129 @@
+
+			.bg-first-page {
+				background-image:url('images/firstpage.gif');
+				background-size:100% 100%;
+				-webkit-background-origin:border;
+				background-repeat:no-repeat;
+				background-color:#c18a53;
+			}
+			
+			.bg-about-page {
+				background-image:url('images/about.jpg');
+				background-size:100% 100%;
+				-webkit-background-origin:border;
+				background-repeat:no-repeat;
+				background-color:#c18a53;
+			}
+			.bg {
+				background-image:url('images/bg.jpg');
+				background-size:100%;
+				-webkit-background-origin:border;
+				background-color:#c18a53;
+			}
+			
+			#iddiv_loc_content{
+				overflow:auto;
+			}
+			
+			.shadow-box-style-opa-yellow {
+				padding:3%;
+				margin:auto auto;
+				width:94%;
+				background-color:#FFFFFF;
+				opacity:0.9;
+				border-radius:10px;
+				border: solid 2px #B4B4B4;
+			}
+			
+			#scroll_loc{
+				width: 1200px;
+				height: 640px;
+				max-height:640px;
+				overflow:auto;
+			}
+			
+			#iddiv_loc_intent {
+				width: 100%;
+				height: 100%;
+				position: relative;
+			}
+			
+			.mp {
+				font-family:arial;
+				font-size:20px;
+				padding-top:2px;
+				text-align:center;
+				font-weight:bolder;
+				color:#E22828;
+				position:absolute;
+				width:25px;
+				height:40px;
+				background-image:url('images/mp.gif');
+				background-size:100% 100%;
+				background-repeat:no-repeat;
+			}
+			
+			@font-face {
+				font-family: 'nusaliver'; /*a name to be used later*/
+				src: url('fonts/nusaliver.TTF'); /*URL to font*/
+			}
+			
+			.ui-icon-custom-mp-fade {
+				background-image: url("images/mp-fade.png");
+				background-position: 3px 3px;
+				background-size: 70%;
+			}
+			.ui-icon-custom-mp {
+				background-image: url("images/mp.png");
+				background-position: 3px 3px;
+				background-size: 70%;
+			}
+			.ui-icon-custom-save {
+				background-image: url("images/save.png");
+				background-position: 3px 3px;
+				background-size: 70%;
+			}
+			.ui-icon-custom-reset {
+				background-image: url("images/reset.png");
+				background-position: 3px 3px;
+				background-size: 70%;
+			}
+			
+			
+			.font-btn-tool {
+				font-family: 'BAUHAUS 93';
+				font-size: 250%;
+				color: #fff;
+				text-shadow: 2px 2px black;
+				text-align: center;
+				
+			}
+			
+			.font-btn-toolbar {
+				font-family: 'BAUHAUS 93';
+				font-size: 250%;
+				color: #fff;
+				text-shadow: 2px 2px black;
+				text-align: center;
+				
+			}
+			
+			.font-btn-white {
+				font-family: 'BAUHAUS 93';
+				font-size: 150%;
+				color: #fff;
+				text-shadow: 2px 2px black;
+				text-align: center;
+			}
+			
+			.ui-content {
+				font-family: 'nusaliver';
+				font-size: 100%;
+				color: #65E06F;
+				text-shadow: 1px 1px black;
+			}
+			
+			
+			#iddiv_main_intent a{
+				width:46%;
+			}

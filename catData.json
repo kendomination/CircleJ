@@ -1,0 +1,89 @@
+{
+	"Beverages":
+		{
+			"Softdrinks":"522|138|images/icon/beverages.png",
+			"Liqour":"1000|138|images/icon/beverages.png",
+			"Juice":"670|138|images/icon/beverages.png",
+			"Fresh Milk":"812|138|images/icon/beverages.png",
+			"Energy Drink":"598|138|images/icon/beverages.png",
+			"Yogurt":"746|138|images/icon/beverages.png",
+			"Water":"935|138|images/icon/beverages.png"
+		},
+	"Bread":
+		{
+			"Loaf bread":"540|397|images/icon/bread.png",
+			"Crackers":"540|219|images/icon/bread.png",
+			"Butter":"595|219|images/icon/bread.png",
+			"Pastries":"540|304|images/icon/bread.png"
+		},
+	"Noodles":
+		{
+			"Cup Noodles":"163|227|images/icon/noodles.png",
+			"Canton":"163|346|images/icon/noodles.png",
+			"Payless":"163|396|images/icon/noodles.png",
+			"Macaroni":"163|258|images/icon/noodles.png",
+			"Sphaghetti Noodles":"163|283|images/icon/noodles.png",
+			"Mac and Cheese":"163|308|images/icon/noodles.png"
+		},
+	"Candies":
+		{
+			"Mint":"251|276|images/icon/candies.png",
+			"Jellies":"251|206|images/icon/candies.png",
+			"Chocolate":"251|395|images/icon/candies.png",
+			"Marshmallow":"251|341|images/icon/candies.png"
+		},
+	"Canned Goods":
+		{
+			"Sardines":"135|220|images/icon/cannedgoods.png",
+			"Corned Beef":"135|180|images/icon/cannedgoods.png",
+			"Sausage":"135|260|images/icon/cannedgoods.png",
+			"Spam":"135|300|images/icon/cannedgoods.png",
+			"Meat Loaf":"135|340|images/icon/cannedgoods.png",
+			"Tuna":"135|401|images/icon/cannedgoods.png"
+		},
+		"Chips":
+		{
+			"Corn Chips":"712|394|images/icon/chips.png",
+			"Potato Chips":"712|348|images/icon/chips.png",
+			"Fun Snack":"712|260|images/icon/chips.png",
+			"Pretzel":"712|303|images/icon/chips.png",
+			"Tortillas":"712|219|images/icon/chips.png"
+		},
+		"Personal Hygiene":
+		{
+			"Shampoo":"940|220|images/icon/personalhygien.png",
+			"Conditioner":"940|268|images/icon/personalhygien.png",
+			"Soap":"940|320|images/icon/personalhygien.png",
+			"Feminine Wash":"830|260|images/icon/personalhygien.png",
+			"Tooth Paste":"830|300|images/icon/personalhygien.png",
+			"Mouth Wash":"830|358|images/icon/personalhygien.png",
+			"Napkin":"830|180|images/icon/personalhygien.png",
+			"Alcohol":"830|401|images/icon/personalhygien.png"
+		},
+		"Meat":
+		{
+			"Pork Meat":"618|240|images/icon/meat.png",
+			"Hotdog":"618|280|images/icon/meat.png",
+			"Tocino":"618|320|images/icon/meat.png",
+			"Logganisa":"618|360|images/icon/meat.png",
+			"Ham":"618|390|images/icon/meat.png"
+		},
+		"Laundry":
+		{
+			"Detergent Powder":"1058|327|images/icon/laundry.png",
+			"Detergent Bar":"1058|225|images/icon/laundry.png",
+			"Zonrox":"1058|268|images/icon/laundry.png",
+			"Fabric Conditioner":"1058|399|images/icon/laundry.png"
+		},
+		"House Hold":
+		{
+			"Insecticides":"1162|321|images/icon/householdaids.png",
+			"Dish Washing Liquid":"1162|396|images/icon/householdaids.png",
+			"Detox":"1162|226|images/icon/householdaids.png"
+		},
+		"Baby Needs":
+		{
+			"Milk":"855|430|images/icon/toiletries.png",
+			"Diaper":"780|430|images/icon/toiletries.png"
+		}
+}

@@ -1,0 +1,28 @@
+		
+		<!--feedback PAGE ------------------------------------------------------------------------------------------------------------------------------------------------>
+			<div data-role="page" id="iddiv_page_feedback">		
+				<div data-role="header" data-position="fixed" data-theme="e" class="ui-overlay-shadow">
+					<h1 style="overflow: visible;margin:0px;" class="ui-title" tabindex="0" role="heading" aria-level="1"><font class="font-btn-tool">FEEDBACK</font></h1>
+				</div><!-- /header -->
+				<!--Content DIV -->
+				<div id="iddiv_content_feedback" data-theme="e" data-role="content" >
+					<div style="width:100%;" id="iddiv_incomingFeedback" onclick="fn_load_messages('iddiv_incomingFeedback')">
+						<!-- <div style="width:100%;"><font style="width:15%;font-size:15px;font-weight:bold;" onclick="fn_load_messages('iddiv_incomingFeedback')>System:</font><p style="width:85%;margin-left:2%;font-style:italic;">Loading FEEDBACK. if too long click here</p><hr style="clear:both;" /></div> -->
+					</div>
+				</div>
+				
+				<!--Footer DIV -->
+				<div id="iddiv_footer_feedback" data-role="footer" data-tap-toggle="false" style="padding:1%;" data-position="fixed" data-theme="e" role="banner">
+					<table style="width:98%;height:40px;">
+						<th style="width:60%;height:100%;">
+							<input type="text" placeholder="name here" style="width:100%;" id="idtxt_name" >
+							<textarea placeholder="Your message" style="width:100%;max-height:100px;max-width:100%;" id="idtextarea_message" ></textarea>
+						</th>
+						<th style="width:20%;height:100%;">
+							<a id="idbtn_feedback_send" href="javascript: fn_send_feedback('idtextarea_message', 'idtxt_name', 'iddiv_incomingFeedback', 'idbtn_feedback_send');" data-feedbackTo="" style="width:90%;" data-role="button" data-theme="e"><font class="font-btn-toolbar">Send</font></a>
+							<a data-rel="back" data-role="button" style="width:90%;" data-theme="e"><font class="font-btn-toolbar">Back</font></a>
+						</th>
+					</table>
+				</div>
+			</div>
+		<!-- END feedback PAGE ------------------------------------------------------------------------------------------------------------------------------------------------>
