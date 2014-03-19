@@ -1,42 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets"
-        xmlns:rim="http://www.blackberry.com/ns/widgets"
-        version="2.0.0.7" versionCode="4" id="CircleJ12">
- 
-  <author href="http://www.example.com/"
-          rim:copyright="Copyright 1998-2012 My Corp">My Corp</author>
- 
-  <name>Circlej application</name>
- 
-  <description>
-    Your Circlej description.
-  </description>
- 
-  <rim:permissions>
-    <rim:permit>access_shared</rim:permit>
-    <rim:permit>access_internet</rim:permit>  
-    <rim:permit>access_location_services</rim:permit>
-    <rim:permit>use_camera</rim:permit>  
-  </rim:permissions>
- 
-  <icon src="icon.png"/>
- 
-  <rim:splash src="icon.png"/>
-  <rim:splash src="images/icon.png"/>
- 
-  <content src="index.html"/>
- 
-  <feature id="blackberry.ui.dialog"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="CircleJ12" versionCode="3" version="2.0.9.6">
+
+        <name>Circlej application</name>
+        <description>Circlej application</description>
+        <author>vbnet</author>        <gap:platforms>
+                
+                <gap:platform name="android" />
+                <gap:platform name="webos" />
+                <gap:platform name="symbian.wrt" />
+                <gap:platform name="blackberry" project="widgets"/>
+        </gap:platforms>
+
+         <icon src="icon2.png" />
+        <preference name="phonegap-version" value="3.2.0" />
+        
+        <access origin="*" subdomains="true" />
+        <access uri="*" subdomains="true" />
+		 <access uri="http://gcccs.org" subdomains="true" />
+		<feature name="Storage">
+	<param name="android-package" value="org.apache.cordova.Storage" />
+		</feature>
+        <feature name="http://api.phonegap.com/1.0/network"/>
+        <feature name="InAppBrowser">
+    <param name="android-package" value="org.apache.cordova.InAppBrowser" />
+        </feature>
+        
+        
+        <preference name="orientation" value="portrait" />
+        <preference name="fullscreen" value="true" />
+        <preference name="target-device" value="universal" />
+		
+		<icon src="icon.png" />
+    
+
    
-  <feature id="blackberry.app">
-    <param name="orientation" value="auto" />
-  </feature>
- 
-  <access uri="http://jquery.com" subdomains="true">
-    <feature id="blackberry.app" required="true" version="1.0.0"/>
-    <feature id="blackberry.invoke" required="true" version="1.0.0"/>
-  </access>
- 
-  <license href="http://arvianne.com/"/>
- 
 </widget>
