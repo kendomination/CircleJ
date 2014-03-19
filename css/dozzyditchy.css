@@ -16,8 +16,9 @@
 			}
 			.bg {
 				background-image:url('images/bg.jpg');
-				background-size:100%;
+				background-size:768px 1280px;
 				-webkit-background-origin:border;
+				background-repeat:Repeatable;
 				background-color:#c18a53;
 			}
 			
@@ -68,11 +69,6 @@
 				src: url('fonts/nusaliver.TTF'); /*URL to font*/
 			}
 			
-			.ui-icon-custom-mp-fade {
-				background-image: url("images/mp-fade.png");
-				background-position: 3px 3px;
-				background-size: 70%;
-			}
 			.ui-icon-custom-mp {
 				background-image: url("images/mp.png");
 				background-position: 3px 3px;
@@ -89,40 +85,29 @@
 				background-size: 70%;
 			}
 			
-			
-			.font-btn-tool {
-				font-family: 'BAUHAUS 93';
+			.font-btn {
+				font-family: 'nusaliver';
 				font-size: 250%;
-				color: #fff;
+				color: #65E06F;
 				text-shadow: 2px 2px black;
 				text-align: center;
-				
-			}
-			
-			.font-btn-toolbar {
-				font-family: 'BAUHAUS 93';
-				font-size: 250%;
-				color: #fff;
-				text-shadow: 2px 2px black;
-				text-align: center;
-				
 			}
 			
 			.font-btn-white {
-				font-family: 'BAUHAUS 93';
+				font-family: 'nusaliver';
+				font-size: 200%;
+				color: #fff;
+				text-shadow: 2px 2px black;
+				text-align: center;
+			}
+			
+			.font-btn-white2 {
+				font-family: 'nusaliver';
 				font-size: 150%;
 				color: #fff;
 				text-shadow: 2px 2px black;
 				text-align: center;
 			}
-			
-			.ui-content {
-				font-family: 'nusaliver';
-				font-size: 100%;
-				color: #65E06F;
-				text-shadow: 1px 1px black;
-			}
-			
 			
 			#iddiv_main_intent a{
 				width:46%;
